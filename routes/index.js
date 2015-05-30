@@ -1,6 +1,6 @@
 /*GET home page. */
 exports.index = function(req, res) {
-  res.render('index', { title: 'Title Here'});
+  res.render('index', { title: 'Jen Sears | Portfolio'});
 };
 
 exports.partials = function(req, res) {

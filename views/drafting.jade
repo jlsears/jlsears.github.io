@@ -5,9 +5,14 @@ html(ng-app='myapp')
     title= title
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    div(ng-view)
-      block content
+  body.background-teapot
+    include partials/nav
+    div
+    block content
+      .port-text
+        h1= title
+        p Welcome, and please take a look around
+
 
     script(src="javascripts/jquery.js")
     script(src="javascripts/angular.js")
@@ -15,3 +20,9 @@ html(ng-app='myapp')
     script(src="javascripts/bootstrap.min.js")
     script(src="app/app.js")
     script(src="app/controllers.js")
+
+
+
+    ***
+
+        include partials/pageheader 
