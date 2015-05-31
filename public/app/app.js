@@ -4,7 +4,7 @@ app.config(['$routeProvider', function($routeProvider){
  $routeProvider
     .when('/', {templateUrl: 'partials/index', controller: 'IndexController'})
     .when('/about', {templateUrl: 'partials/about', controller: 'AboutController'})
-    .when('/resume', {templateUrl: 'partials/resume', controller: 'ResumeController'})
+    .when('/experience', {templateUrl: 'partials/experience', controller: 'ExperienceController'})
     .when('/samples', {templateUrl: 'partials/samples', controller: 'SamplesController'})
 }])
 

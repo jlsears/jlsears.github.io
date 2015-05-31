@@ -6,17 +6,6 @@ a {
   color: #00B7FF;
 }
 
-/*************************
-HEADER
-*************************/
-
-#banner-photo {
-  background-image: url('../images/teapot_cropped.JPG');
-  height: 308px;
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /**************************
 INDEX
@@ -73,11 +62,18 @@ PARTIALS
 *********************/
 
 #banner-photo {
-  position: fixed;
-  width: 100%;
-  background: contain;
+  background-image: url('../images/teapot_cropped.JPG');
+  height: 308px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #banner-photo img {
   position: absolute;
+  margin: auto;
+  display: block;
+}
+
+.content-container {
+  margin-left: 20px;
 }

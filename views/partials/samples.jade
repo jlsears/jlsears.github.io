@@ -1,9 +1,16 @@
-h1 {{message}}
+#banner-photo
+  nav.navbar.navpartials.navbar-default
+    .partialscont.container
+      .navbar-header
+      ul.nav.navbar-nav.navbar-right
+        li
+          a(href='/') Home
+        li
+          a(href='/about') About
+        li
+          a(href='/experience') Experience
+        li
+          a(href='/samples') Samples
 
-form
-  label URL:
-  input(type='text', ng-model='newSample')
-  input.btn.btn-success(type='submit', ng-click='addSamples(newSample)', value='Samples!!!')
-
-  h4 Here are my samples, yo!
-  
+.content-container
+  h1 {{message}}
