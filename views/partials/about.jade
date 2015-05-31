@@ -6,11 +6,18 @@
         li
           a(href='/') Home
         li
-          a(href='/about') About
-        li
           a(href='/experience') Experience
         li
           a(href='/samples') Samples
+        li
+          a(href='/contact') Contact
 
 .content-container
-  h1 {{message}}
+  .about-info
+    .div-one
+      img(src='../../images/headshot.jpg')
+    .div-two
+      h1 {{aboutTitle}} 
+      p {{aboutContent}}
+      p {{secondContent}}
+      p {{thirdContent}}

@@ -65,7 +65,7 @@ PARTIALS
   background-image: url('../images/teapot_cropped.JPG');
   height: 308px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 #banner-photo img {
@@ -76,4 +76,29 @@ PARTIALS
 
 .content-container {
   margin-left: 20px;
+}
+
+
+/***********************
+VIEW: ABOUT
+***********************/
+
+.about-info {
+  max-width: 50%;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.div-one {
+  max-width: 50%;
+  float: left;
+}
+
+.div-one img {
+  border-radius: 50%;
+}
+
+.div-two {
+  float: right;
+  max-width: 50%;
 }
