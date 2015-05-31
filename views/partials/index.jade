@@ -1,2 +1,18 @@
 #background-teapot
-    img(src='./images/teapot.JPG')
+  img(src='./images/teapot.JPG')
+nav.navbar.navbar-default
+  .container
+    .navbar-header
+    ul.nav.navbar-nav.navbar-right
+      li
+        a(href='/') Home
+      li
+        a(href='/about') About
+      li
+        a(href='/resume') Resume
+      li
+        a(href='/samples') Samples
+
+.home-text
+  h1.title {{title}}
+  h1.message {{message}}

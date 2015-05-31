@@ -1,9 +1,8 @@
 var controllers = angular.module('myapp.controllers', []);
 
 controllers.controller('IndexController', ['$scope', function($scope){
-  $scope.message = 'Hello, I am the home page, guys!';
-  // $scope.bgimg = "../images/teapot.JPG";
-  $scope.viewBackground = 'background-teapot';
+  $scope.message = 'Please feel free to take a look around';
+  $scope.title = 'Jen Sears | Portfolio';
 }]);
 
 controllers.controller('AboutController', ['$scope', function($scope){

@@ -45,6 +45,34 @@ INDEX
   margin-top: -20px;
 }
 
-.port-text {
+.home-text h1.title {
+  position: absolute;
+  left: 50px;
   color: white;
 }
+
+.home-text h1.message {
+  position: absolute;
+  top: 125px;
+  left: 50px;
+  color: white;
+  font-size: 17px;
+}
+
+.index-nav {
+  margin-top: 0px;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  margin-top: -50px;
+  max-width: 40%;
+  margin-left: 55%;
+}
+
+.container {
+  max-width: 50%;
+  margin-left: 40%;
+}
+
