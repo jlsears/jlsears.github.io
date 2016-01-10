@@ -1,0 +1,57 @@
+
+
+
+
+/******************
+ABOUT
+******************/
+
+.headshot-rounded {
+  border-radius: 50%;
+}
+
+.headshot-div {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.summary-div {
+  float: right;
+  width: 60%;
+}
+
+.about-heading {
+  padding-bottom: 15px;
+}
+
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/******************
+WHEREABOUTS
+******************/
+.fa-github:before {
+    content: "\f09b";
+    color: #333;
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+    color: #333;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    color: #333;
+}
+
+#services {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.whereabouts {
+  padding-bottom: 15px;
+}
