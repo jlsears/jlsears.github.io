@@ -59,10 +59,23 @@ WHEREABOUTS
   padding-bottom: 80px;
 }
 
-.whereabouts {
+/*.whereabouts {
   padding-bottom: 15px;
+}*/
+
+/******************
+SKILLS
+******************/
+
+.skills-header {
+  text-align: center;
+  color: #333;
+  padding-bottom: 25px;
 }
 
+.skills-holder {
+  text-align: center;
+}
 
 /******************
 PORTFOLIO
