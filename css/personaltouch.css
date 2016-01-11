@@ -1,10 +1,12 @@
 
 
 /******************
-NAVBAR
+BEGINNING
 ******************/
 
-
+.bump-down {
+  padding-top: 30px;
+}
 
 
 /******************
@@ -68,7 +70,7 @@ PORTFOLIO
 
 .portfolio-header {
   text-align: center;
-  color: #2E7D32;
+  color: #333;
   padding-bottom: 25px;
 }
 
