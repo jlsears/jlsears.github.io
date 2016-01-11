@@ -1,5 +1,10 @@
 
 
+/******************
+NAVBAR
+******************/
+
+
 
 
 /******************
@@ -54,4 +59,27 @@ WHEREABOUTS
 
 .whereabouts {
   padding-bottom: 15px;
+}
+
+
+/******************
+PORTFOLIO
+******************/
+
+.portfolio-header {
+  text-align: center;
+  color: #2E7D32;
+  padding-bottom: 25px;
+}
+
+/******************
+CONTACT
+******************/
+
+.email-decor {
+  color: #2E7D32;
+}
+
+.email-buffer {
+  margin-top: 15px;  
 }
