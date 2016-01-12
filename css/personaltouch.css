@@ -54,18 +54,19 @@ WHEREABOUTS
     color: #333;
 }
 
-#services {
+#whereabouts {
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 
-/*.whereabouts {
-  padding-bottom: 15px;
-}*/
 
 /******************
 SKILLS
 ******************/
+
+#skills {
+  padding-top: 70px;
+}
 
 .skills-header {
   text-align: center;
@@ -88,7 +89,7 @@ PORTFOLIO
 }
 
 .hop-stretch {
-  
+
 }
 
 /******************
