@@ -39,19 +39,31 @@ ABOUT
 /******************
 WHEREABOUTS
 ******************/
-.fa-github:before {
+.fa-github {
     content: "\f09b";
     color: #333;
 }
 
-.fa-linkedin:before {
+.fa-github:hover {
+    color: #2E7D32;
+}
+
+.fa-linkedin {
     content: "\f0e1";
     color: #333;
 }
 
-.fa-twitter:before {
+.fa-linkedin:hover {
+  color: #2E7D32;  
+}
+
+.fa-twitter {
     content: "\f099";
     color: #333;
+}
+
+.fa-twitter:hover {
+  color: #2E7D32;  
 }
 
 #whereabouts {
